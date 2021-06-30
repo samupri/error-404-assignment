@@ -1,0 +1,84 @@
+/* Background color */
+.error{
+  background-color: lightgray;
+}
+
+/* Image css */
+ img {
+    width: 25%;
+    height: auto;
+} 
+
+/* Heading */
+h1{
+  font-size: 4rem;
+  font-variant: small-caps;
+  color: darkred;
+  text-shadow: 2px 2px black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Oopsie style */
+.heading{
+  color: red;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  animation: blink 1s linear infinite;
+  
+}
+/* Oopsie animation */
+@keyframes blink {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+/* Content style */
+.feedback {
+  color: brown;
+  margin: auto;
+  font-size: 1rem;
+  font-style: oblique;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: -50px;
+  top: -10px;
+}
+
+/* Link style */
+a{
+  font-size: 1.4rem;
+  font-style: normal;
+  color: black;
+  text-shadow: 2px 2px lightgrey;
+  background-color: lightsalmon;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 560px) {
+  body,p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  .feedback{
+    font-size: 1.5rem;
+  }
